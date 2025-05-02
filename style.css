@@ -1,0 +1,61 @@
+body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-attachment: fixed;
+      background-image: url('triangles-6000197_1280.png');
+      background-position: center;
+      background-size: cover;
+    }
+    .clock {
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .clock h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    .clock h1 span {
+      font-size: 3rem;
+      color: #FFD700;
+    }
+
+    .clock h4 {
+      font-size: 1.5rem;
+      margin-top: 20px ;
+      color: #fff;
+    }
+
+    .time {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      /* font-size: 7rem; */
+      margin: 10px 0;
+      width: 100%;
+    }
+    .time div {
+      text-align: center;
+    }
+    .time div span:first-child {
+      display: block;
+      font-size: 9rem; /* Larger font size for numbers */
+      color: #fff;
+      
+    }
+    .time div span:last-child {
+      display: block;
+      font-size: 1.2rem; /* Smaller font size for labels */
+      color: #FFD700;
+    }
+    .clock span {
+      font-style: italic;
+    }
